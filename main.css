@@ -1,0 +1,48 @@
+/* task1 */
+#slider-container {
+      width: 300px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #slider {
+      display: flex;
+      width: fit-content;
+      position: relative;
+    }
+
+    .slide {
+      width: 300px;
+      height: 250px;
+      flex: 0 0 auto;
+      cursor: pointer;
+    }
+
+    #stopButton {
+      margin-top: 10px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+ 
+
+    /* task2 */
+
+    .box img { 
+        width: 300px;
+        border-radius: 50%;
+    }
+    p {
+        width: 250px;
+    }
+    .down-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .box {
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+    .box .animation {
+        display: none;
+    }
